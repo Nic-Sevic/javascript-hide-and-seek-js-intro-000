@@ -23,11 +23,11 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   var nested = document.getElementById('grand-node')
-  var egg = nested[0]
+  var egg = nested.children[0]
   while (egg){
 
     nested = egg
-    egg = nested[0]
+    egg = nested.children[0]
   }
   return nested
   /*while (nested.length) {
