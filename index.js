@@ -16,7 +16,7 @@ function increaseRankBy(n) {
     }
   }*/
   for (let i = 0; i < list.length; i++) {
-   rankedLists[i].textContent = (parseInt(rankedLists[i].textContent) + n)
+   list[i].textContent = (parseInt(list[i].textContent) + n)
 }
 }
 
