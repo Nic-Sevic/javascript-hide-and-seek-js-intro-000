@@ -18,6 +18,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < rankedLists.length; i++) {
    rankedLists[i].textContent = (parseInt(rankedLists[i].textContent) + n)
 }
+}
 
 function deepestChild() {
   var nested = document.getElementById('grand-node')
